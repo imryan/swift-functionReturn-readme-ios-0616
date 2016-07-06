@@ -15,12 +15,13 @@ func getAge(name: String) -> Int {
 }
 
 // Uncomment to see the error
+// Should be returning 
+
 /*
 func badGetAge(name: String) -> Int {
     print("\(name) is 29")
 }
 */
-
 
 let friend = "Emily"
 var friendAge = getAge(friend)
